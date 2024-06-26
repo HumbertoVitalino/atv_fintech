@@ -1,0 +1,82 @@
+body {
+    background-color: #c9304b;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 129px;
+    text-align: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-body i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    margin: 0;
+}
+
+.lock-icon:before {
+    content: '\1F512';
+}
+
+.transfer-icon:before {
+    content: '\1F4B8';
+}
+
+.pay-icon:before {
+    content: '\1F4B3';
+}
+
+.statement-icon:before {
+    content: '\1F4C3';
+}
+
+.card-icon:before {
+    content: '\1F4B3';
+}
+
+.pix-icon:before {
+    content: '\1F4B0';
+}
+
+.help-icon:before {
+    content: '\2753';
+}
+
+.bg-primary {
+    background-color: #8d1d31 !important;
+}
+
+.bg-secondary {
+    background-color: #c9304b !important;
+}
+
+.double-card {
+    height: 129px;
+}
